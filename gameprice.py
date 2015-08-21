@@ -44,7 +44,7 @@ def checkPrices():
             if float(minPrice) < pricesDatabase[key]:
                 beforePrice = pricesDatabase[key]
                 print 'New minimum price for '+key+', before was '+beforePrice+', now is '+minPrice
-                pricesDatabase[key] = float(minPrice)
+            pricesDatabase[key] = float(minPrice)
             sleep(5)
         outPrices = open('pricesdb.txt', 'wb')
         for key in pricesDatabase:
