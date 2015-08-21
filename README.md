@@ -4,6 +4,7 @@ website: https://github.com/francescodedomenico/allkeyshopPriceChecker
 ==========
 ## Installation
 In order to use this simple script you need a [Python 2.7.* installation](https://www.python.org/downloads/)
+
 Be sure to have the python and pip in your PATH and execute:
 
 ```pip install BeautifulSoup4```
